@@ -11,7 +11,7 @@ INTAKE-49
 
 SECTION: 08
 
-DEPARTMENT OF CSECSE
+DEPARTMENT OF CSE
 
 Bangladesh University of Business and Technology(BUBT)
 
