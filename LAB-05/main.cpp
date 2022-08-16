@@ -1,21 +1,21 @@
-//https://codeforces.com/problemset/problem/546/A
+//https://codeforces.com/problemset/problem/791/A
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-     int k, n, w;
-    cin >> k >> n >> w;
-    int sum = 0;
-    for(int i = 1; i <= w; i++)
-    {
-        sum += i;
-    }
-    int d = (sum * k) - n;
-    if(d < 0)
-        cout << "0";
+   int a,b,c=0;
+    cin>>a>>b;
+    if(a>b)
+        c=0;
     else
-        cout << d;
+        while(a<=b)
+        {
+            a=a*3;
+            b=b*2;
+            c++;
+        }
+    cout<<c<<endl;
     return 0;
 }
